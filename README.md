@@ -1,6 +1,6 @@
 # trivia-game-meteor
  
-#Eklemek istediklerim;
+# Eklemek istediklerim;
 
 Css konusundaki tecrübesizliğim ve zaman nedeni ile şık bir user interface hazırlayamadığım farkındayım. İlerleyen süreçlerde bu konunun üstüne düşeceğim.
 
