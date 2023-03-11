@@ -6,3 +6,6 @@ Css konusundaki tecrübesizliğim ve zaman nedeni ile şık bir user interface h
 
 
 Server - web tarafına yoğunlaştığımdan mobil uygulamada nasıl göründüğü/çalıştığı ile ilgilenmedim.
+
+
+<img src="/ekrangoruntuleri/1.png"/>
