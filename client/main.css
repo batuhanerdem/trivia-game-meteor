@@ -1,0 +1,232 @@
+body {
+  display: flex;
+  font-family: sans-serif;
+  align-self: center;
+  justify-self: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(222, 187, 133);
+
+  font-size: 14px;
+}
+
+form {
+  display: flex;
+  height: 300px;
+  width: 500px;
+  max-width: 100%;
+  max-height: 100%;
+  background-color: aliceblue;
+  border-radius: 10%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.signup-label {
+  display: flex;
+  font-size: 90%;
+  padding-top: 5px;
+  color: black;
+  text-decoration: underline;
+}
+
+input {
+  display: flex;
+  height: 30px;
+  margin-top: 50px;
+  width: 400px
+}
+
+button {
+  display: flex;
+  margin-top: 20px;
+  height: 30px;
+  justify-content: center;
+  width: 400px;
+  font-size: large;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  font-size: 200%;
+  justify-self: start;
+  font-weight: 700;
+  color: darkcyan;
+}
+
+.signInError {
+  color: red;
+  font-size: large;
+  margin-top: 30px;
+}
+
+.log-out {
+  display: flex;
+  font-family: sans-serif;
+  margin: 20px;
+  text-decoration: underline;
+  align-self: flex-end;
+  width: max-content;
+}
+
+.log-out>label {
+  display: flex;
+  background-color: bisque;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+  justify-self: flex-end;
+  align-items: flex-end;
+  margin: 0;
+  font-size: medium;
+}
+
+.home-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: bisque;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  font-size: 14px;
+}
+
+.play-screen-holder {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.play-screen {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.back-to-home {
+  display: flex;
+  font-family: sans-serif;
+  margin: 20px;
+  text-decoration: underline;
+  width: max-content;
+}
+
+.question {
+  display: flex;
+  width: 350px;
+  border-radius: 20px;
+  border-width: 7px;
+  border-style: double;
+  border-color: rgb(237, 193, 140);
+  height: 500px;
+  background-color: bisque;
+  font-size: larger;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.question>button {
+  width: 100%;
+  background-color: rgb(250, 242, 232);
+  border-radius: 10px;
+}
+
+.question>label {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-color: rgb(108, 88, 105);
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.user-stats {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(222, 187, 133);
+  height: 350px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+.pass-and-answer-buttons {
+  display: flex;
+  flex: 0;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+
+.pass-and-answer-buttons>button {
+  width: 30%;
+  height: 50%;
+  margin: 20px;
+  font-size: medium;
+  border-radius: 10px;
+}
+
+.clicked {
+  border-color: rgb(59, 164, 171);
+  border-width: 3px;
+}
+
+.unclicked {
+  background-color: white;
+  border-width: 0.1px;
+}
+
+.true-answer {
+  border-color: rgb(13, 234, 116);
+  border-width: 6px;
+}
+
+.wrong-answer {
+  border-color: rgb(253, 0, 0);
+  border-width: 5px;
+}
+
+.ranking {
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  overflow-y: hidden  ;
+  overflow-y: scroll;
+  flex-direction: column;
+
+  border-width: 10px;
+  border-color: black;
+  background-color: rgb(222, 187, 133);
+  height: 350px;
+  width: 200px;
+}
+.trivia-string{
+  margin-top: 100px;
+  font-size: x-large;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(93, 80, 28);
+}
+.home-screen-buttons{
+  background-color: #cf760b; /* Green */
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+

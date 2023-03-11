@@ -1,0 +1,82 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "/Users/batuhanerdem/.meteor/packages/mongo/1.16.4/web.browser/local_collection_driver.js",
+        "/Users/batuhanerdem/.meteor/packages/mongo/1.16.4/web.browser/collection.js",
+        "/Users/batuhanerdem/.meteor/packages/mongo/1.16.4/web.browser/connection_options.js",
+        "/Users/batuhanerdem/.meteor/packages/mongo/1.16.4/web.browser/doc_fetcher.js",
+        "/Users/batuhanerdem/.meteor/packages/mongo/1.16.4/web.browser/mongo_driver.js",
+        "/Users/batuhanerdem/.meteor/packages/mongo/1.16.4/web.browser/mongo_utils.js",
+        "/Users/batuhanerdem/.meteor/packages/mongo/1.16.4/web.browser/observe_multiplex.js",
+        "/Users/batuhanerdem/.meteor/packages/mongo/1.16.4/web.browser/oplog_observe_driver.js",
+        "/Users/batuhanerdem/.meteor/packages/mongo/1.16.4/web.browser/oplog_tailing.js",
+        "/Users/batuhanerdem/.meteor/packages/mongo/1.16.4/web.browser/oplog_v2_converter.js",
+        "/Users/batuhanerdem/.meteor/packages/mongo/1.16.4/web.browser/polling_observe_driver.js",
+        "/Users/batuhanerdem/.meteor/packages/mongo/1.16.4/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/reactive-var": [
+        "/Users/batuhanerdem/.meteor/packages/reactive-var/1.0.12/web.browser/reactive-var.js"
+      ],
+      "meteor/es5-shim": [
+        "/Users/batuhanerdem/.meteor/packages/es5-shim/4.8.0/web.browser/client.js",
+        "/Users/batuhanerdem/.meteor/packages/es5-shim/4.8.0/web.browser/console.js",
+        "/Users/batuhanerdem/.meteor/packages/es5-shim/4.8.0/web.browser/cordova.js",
+        "/Users/batuhanerdem/.meteor/packages/es5-shim/4.8.0/web.browser/export_globals.js",
+        "/Users/batuhanerdem/.meteor/packages/es5-shim/4.8.0/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "/Users/batuhanerdem/.meteor/packages/ecmascript/0.16.5/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "/Users/batuhanerdem/.meteor/packages/shell-server/0.5.0/web.browser/main.js",
+        "/Users/batuhanerdem/.meteor/packages/shell-server/0.5.0/web.browser/shell-server.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "/Users/batuhanerdem/.meteor/packages/hot-module-replacement/0.5.2/web.browser/hot-api.js",
+        "/Users/batuhanerdem/.meteor/packages/hot-module-replacement/0.5.2/web.browser/client.js",
+        "/Users/batuhanerdem/.meteor/packages/hot-module-replacement/0.5.2/web.browser/server.js"
+      ],
+      "meteor/react-meteor-data": [
+        "/Users/batuhanerdem/.meteor/packages/react-meteor-data/2.6.3/web.browser/index.js"
+      ],
+      "meteor/ostrio:flow-router-extra": [
+        "/Users/batuhanerdem/.meteor/packages/ostrio_flow-router-extra/3.9.0/web.browser/client/_init.js",
+        "/Users/batuhanerdem/.meteor/packages/ostrio_flow-router-extra/3.9.0/web.browser/client/active.route.js",
+        "/Users/batuhanerdem/.meteor/packages/ostrio_flow-router-extra/3.9.0/web.browser/client/group.js",
+        "/Users/batuhanerdem/.meteor/packages/ostrio_flow-router-extra/3.9.0/web.browser/client/modules.js",
+        "/Users/batuhanerdem/.meteor/packages/ostrio_flow-router-extra/3.9.0/web.browser/client/renderer.js",
+        "/Users/batuhanerdem/.meteor/packages/ostrio_flow-router-extra/3.9.0/web.browser/client/route.js",
+        "/Users/batuhanerdem/.meteor/packages/ostrio_flow-router-extra/3.9.0/web.browser/client/router.js",
+        "/Users/batuhanerdem/.meteor/packages/ostrio_flow-router-extra/3.9.0/web.browser/client/triggers.js",
+        "/Users/batuhanerdem/.meteor/packages/ostrio_flow-router-extra/3.9.0/web.browser/lib/_helpers.js",
+        "/Users/batuhanerdem/.meteor/packages/ostrio_flow-router-extra/3.9.0/web.browser/server/_init.js",
+        "/Users/batuhanerdem/.meteor/packages/ostrio_flow-router-extra/3.9.0/web.browser/server/group.js",
+        "/Users/batuhanerdem/.meteor/packages/ostrio_flow-router-extra/3.9.0/web.browser/server/route.js",
+        "/Users/batuhanerdem/.meteor/packages/ostrio_flow-router-extra/3.9.0/web.browser/server/router.js",
+        "/Users/batuhanerdem/.meteor/packages/ostrio_flow-router-extra/3.9.0/web.browser/server/plugins/fast-render.js"
+      ],
+      "meteor/accounts-password": [
+        "/Users/batuhanerdem/.meteor/packages/accounts-password/2.3.3/web.browser/password_client.js",
+        "/Users/batuhanerdem/.meteor/packages/accounts-password/2.3.3/web.browser/email_templates.js",
+        "/Users/batuhanerdem/.meteor/packages/accounts-password/2.3.3/web.browser/password_server.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
