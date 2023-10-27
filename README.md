@@ -1,11 +1,6 @@
 # trivia-game-meteor
  
-# Eklemek istediklerim;
-
-Css konusundaki tecrübesizliğim ve zaman nedeni ile şık bir user interface hazırlayamadığım farkındayım. İlerleyen süreçlerde bu konunun üstüne düşeceğim.
-
-
-Server - web tarafına yoğunlaştığımdan mobil uygulamada nasıl göründüğü/çalıştığı ile ilgilenmedim.
+This is the clone of Trivia game which is my old android project. My first project with meteor js.
 
 
 <img src="/ekran goruntuleri/1.png"/>
@@ -17,4 +12,3 @@ Server - web tarafına yoğunlaştığımdan mobil uygulamada nasıl göründü�
 <img src="/ekran goruntuleri/7.png"/>
 <img src="/ekran goruntuleri/8.png"/>
 <img src="/ekran goruntuleri/9.png"/>
-
