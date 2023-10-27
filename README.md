@@ -1,6 +1,6 @@
 # trivia-game-meteor
  
-This is the clone of Trivia game which is my old android project. My first project with meteor js.
+This is the clone of Trivia game which is my old android project. My first project with meteor js. I used Meteor js for both backend and frontend and used Blaze for frontend.
 
 
 <img src="/ekran goruntuleri/1.png"/>
